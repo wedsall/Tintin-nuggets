@@ -5,8 +5,6 @@
  #var {holdc} {};
  #var {cloop} {0};
 
- #NOP regexp {%1} {{[0-9]+}{[a-z]+}} {#echo {&2, &1 times}} {#echo {false}};
-
  #parse {%1} {tmpx}
  {
    #regexp {$tmpx} {{[0-9]}}
